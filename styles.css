@@ -1,0 +1,38 @@
+/* CSS rules for all pages */
+
+body {
+  font-family: Arial, sans-serif; /* Modify the font family */
+  font-size: 16px; /* Modify the font size */
+}
+
+header {
+  background-color: lightblue; /* Modify the background color */
+}
+
+nav {
+  background-color: lightgreen; /* Modify the background color */
+}
+
+main {
+  background-color: lightyellow; /* Modify the background color */
+  font-size: 14px; /* Modify the font size */
+}
+
+footer {
+  background-color: lightgray; /* Modify the background color */
+}
+
+li {
+  display: inline-block; /* Modify the display property */
+  width: auto; /* Modify the width property */
+}
+
+h1 {
+  text-align: center; /* Modify the text alignment */
+  font-family: 'Times New Roman', Times, serif; /* Modify the font family */
+  color: navy; /* Modify the color */
+}
+
+p {
+  line-height: 1.5; /* Modify the line height */
+}
