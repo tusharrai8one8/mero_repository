@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+  }
+  
+  .skip-link:focus {
+    top: 10px;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Image Styles */
+  img {
+    width: 100%;
+    border: 2px solid #ccc;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  /* Grid Styles */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  /* Flex Styles */
+  nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* nth-child Selector */
+  .grid-container div:nth-child(even) img {
+    border-radius: 20px;
+  }
+  
